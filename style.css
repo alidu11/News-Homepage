@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@300;400;700;800&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whole{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1rem 1rem 0 rgb(206, 206, 206);
+    width: fit-content;
+    height: fit-content;
+    padding: 3rem 5rem;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 57.5rem;
+}
+
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    padding: 0 1rem;
+}
+
+.container{
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+
+.left{
+    margin: 0 .5rem;
+}
+
+.left img{
+    width: 550px;
+    height: 223.5px;
+}
+
+.left-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 0 0;
+}
+
+.left-text div h1{
+    font-size: 2.4rem;
+    width: 12rem;
+}
+
+.left-text div #p{
+    color: hsl(236, 13%, 42%);
+    width: 18rem;
+    margin: 0 .9rem 1.5rem 0;
+    font-size: 15px;
+}
+
+.left-text div input{
+    padding: .6rem .3rem;
+    width: 9.5rem;
+    background-color: hsl(5, 85%, 63%);
+    border: 1px solid hsl(5, 85%, 63%);
+    letter-spacing: .2rem;
+    color: hsl(36, 100%, 99%);
+    font-size: 12px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.3rem 1.8rem .8rem 1.8rem;
+    width: 19.7rem;
+    height: 23.4rem;
+}
+
+.right h1{
+    color: hsl(35, 77%, 62%);
+    margin: 0 0 .8rem 0;
+}
+
+.right div h3{
+    color:   hsl(233, 8%, 79%);
+    width: 15rem;
+    margin: 0 0 .8rem 0;
+    font-size: 16px;
+}
+
+.right div p{
+    color:  hsl(236, 13%, 42%);
+    margin: 0 0 1.3rem 0;
+    font-size: 15px;
+}
+
+.right div hr{
+    margin: 0 0 1.5rem 0;
+    background-color: hsl(236, 13%, 42%);
+    border: transparent;
+    height: 1px;
+}
+
+.news-container{
+    display: flex;
+    align-items: center;
+    margin: 1.8rem 0 0 0;
+}
+
+.news-container img{
+    width: 70px;
+    height: 90px;
+}
+
+.whole .news-contain{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+
+.whole .news-contain img{
+    width: 70px;
+    height: 90px;
+}
+
+.whole .news-text{
+    margin: 0 0 0 .8rem;
+}
+
+.whole .news-text h3{
+    color:  hsl(233, 8%, 79%);
+    margin: 0 0 .5rem 0;
+}
+
+.whole .news-text h4{
+    color: hsl(240, 100%, 5%);
+    margin: 0 0 .5rem 0;
+}
+
+.whole .news-text p{
+    width: 11.3rem;
+    font-size: 14px;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.3rem;
+}
